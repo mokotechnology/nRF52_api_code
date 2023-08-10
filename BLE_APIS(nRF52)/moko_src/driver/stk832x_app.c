@@ -39,12 +39,7 @@ void STK832x_read_data(void)
 	
 	static uint8_t time_cnt=0;
 	
-	
-	
-	return;
-	
 	if(get_is_have_stk832x_sta()==false)  return;
-	
 	
 	if(++time_cnt<2)  return;
 	     time_cnt=0;

@@ -7,6 +7,7 @@ LR_IROM1 0x00018000 0x0000A000  {    ; load region size_region
    *.o (RESET, +First)
    *(InRoot$$Sections)
    .ANY (+RO)
+   .ANY (+XO)
   }
   RW_IRAM1 0x20002AC0 0x00005540  {  ; RW data
    .ANY (+RW +ZI)

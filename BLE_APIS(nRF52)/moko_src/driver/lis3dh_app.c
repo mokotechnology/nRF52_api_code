@@ -10,8 +10,8 @@
 
 
 /*****************************************************/
-static uint8_t is_have_3dh = 0;
-uint8_t  get_3dh_sta(void)
+static bool is_have_3dh = false;
+bool  get_3dh_sensor_state(void)
 {
    return is_have_3dh;
 }
@@ -28,7 +28,6 @@ static void lis3dh_INT1_init(void)
 	LIS3DH_WriteReg(INT1_THS,20);
 	LIS3DH_WriteReg(INT1_DURATION,0x01);
 	LIS3DH_Int1LatchEnable(MEMS_DISABLE);
-	
 }
 
 
@@ -49,15 +48,15 @@ bool lis3dh_init(void)
 		LIS3DH_ReadReg(LIS3DH_WHO_AM_I,&who_am_i); // »˝÷· «∑Ò¥Ê‘⁄
 		if(who_am_i==0x33)
 		{
-			is_have_3dh=1;
+			is_have_3dh = true;
 			BLE_RTT("[3DH]  have lis3dh....\r\n");
 			break;
 		}
-		is_have_3dh=0;	
+		is_have_3dh = false;	
     }
 	
 	//is no lis3dh
-	if(is_have_3dh==0)   return false;
+	if(is_have_3dh == false)   return false;
 	
 	
 	lis3dh_INT1_init();
@@ -92,7 +91,6 @@ void task_read_3dh(void)
 	//if device don't have lish3dh sensor, will return 
 	if(is_have_3dh==0)  return;
 	
-	
 	if(++time_cnt<2)  return;
 	     time_cnt=0;
 	
@@ -104,7 +102,6 @@ void task_read_3dh(void)
 	xdata.AXIS_Y =  xdata.AXIS_Y >> XXXX;
 	xdata.AXIS_Z =  xdata.AXIS_Z >> XXXX;
 	
-
 	BLE_RTT("[3DH] X=0x%x  Y=0x%x  Z=0x%x\r\n",xdata.AXIS_X,xdata.AXIS_Y,xdata.AXIS_Z);
 }
 

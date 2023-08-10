@@ -24,7 +24,7 @@ void get_device_mac(void);
 
 void ble_disconnect(void);
 void get_nrf52_chip_temp(void);
-uint8_t get_device_type(void);
+void get_device_type(uint8_t *p_data,uint8_t *data_len);
 
 void task_ble_tx_power(void);
 #endif

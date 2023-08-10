@@ -155,24 +155,41 @@ void get_nrf52_chip_temp(void)
 
 
 
-/**********************************************
-*function:   get_device_type
-*description: get device have sensor type 
-****************************************/
-uint8_t get_device_type(void)
+
+
+/*****************************************
+*/
+//uint32_t nfc_soc_type =0;
+void get_device_type(uint8_t *p_data,uint8_t *data_len)
 {
-	uint8_t tmp=0;
+    uint8_t tmp = 0,len = 0;
 
-	if(get_3dh_sta())
-	{
-		tmp|=0x01;
-	}
+    p_data[0] = 0x10;//nrf52810
 
-	return tmp;
+    /* 1:????*/
+    uint32_t nfc_soc_type = NRF_FICR->INFO.PART;
+    if(nfc_soc_type == 0x00052805) 
+    {
+        p_data[0] = 0x15;
+    }
+    else if(nfc_soc_type == 0x00052832) 
+    {
+        p_data[0] = 0x11;
+    }
+    else if(nfc_soc_type == 0x00052833) 
+    {
+        p_data[0] = 0x13;
+    }
+
+    /* 2:chekc device is have lis3dh sensor*/
+    if(get_3dh_sensor_state()==true)
+    {
+      tmp|=0x01;
+    }
+    p_data[1] = tmp;
+	
+	*data_len = 2;
 }
-
-
-
 
 
 

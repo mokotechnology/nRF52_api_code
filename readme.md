@@ -73,8 +73,8 @@ This function  in **simple_uart.c** and **uart_commd.c**  file.
 
 The  protocol Documentation path： ...BLE_APIS(nRF52)\doc\Uart Protocol
 
-1.   **simple_uart.c **:  The initialization part of the uart driver function
-2.  **uart_commd.c** : handle Production test commands 
+1.   **simple_uart.c** :  The initialization part of the uart driver function
+2.   **uart_commd.c** : handle Production test commands 
 
 **Description of special functions:**
 
@@ -86,6 +86,7 @@ The  protocol Documentation path： ...BLE_APIS(nRF52)\doc\Uart Protocol
   Uart's function to receive data. in the while function.
 3. **void analyze_uart_data(uint8_t cmd,uint8_t*datas,uint8_t len)**
   Serial port data parsing function, parsing corresponding commands and function settings
+4. **Note:** UART must be closed after the test is completed, otherwise it will cause abnormal power consumption of the device
 
 
 

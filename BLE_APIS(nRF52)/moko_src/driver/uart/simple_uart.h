@@ -34,8 +34,4 @@ void uart_send(uint8_t *str,uint16_t len);
 
 void task_uart_manage(void);
 void task_check_uart_timeout(void);
-
-
-void  task_process_uart_data(void);
-
 #endif

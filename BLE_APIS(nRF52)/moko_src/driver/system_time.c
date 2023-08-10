@@ -58,7 +58,7 @@ void system_timer_stop(void)
 **********************************/
 static void task_read_3_axis(void)
 {
-   if(get_3dh_sta()==1)	
+   if(get_3dh_sensor_state()==true)	
 	   task_read_3dh();
    else
 	   STK832x_read_data();

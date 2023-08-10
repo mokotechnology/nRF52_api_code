@@ -479,21 +479,20 @@ bd\class\hid\mouse -I..\..\..\..\..\..\components\libraries\usbd\class\msc -I..
 \libraries\util -I..\..\..\..\..\..\components\softdevice\common -I..\..\..\..\
 ..\..\components\softdevice\s112\headers -I..\..\..\..\..\..\components\softdev
 ice\s112\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\.
-.\..\external\fprintf -I..\..\..\..\..\..\external\segger_rtt -I..\config -IF:\
-MOKO_Prj\BLE_Beacon_APIS_nRF52\BLE_APIS(nRF52)\MProject\RTE -ID:\keil_523\ARM\P
-ACK\ARM\CMSIS\4.5.0\CMSIS\Include -ID:\keil_523\ARM\PACK\NordicSemiconductor\nR
-F_DeviceFamilyPack\8.15.0\Device\Include -ID:\keil_523\ARM\PACK\NordicSemicondu
-ctor\nRF_DeviceFamilyPack\8.42.0\Device\Include --predefine="__MICROLIB SETA 1"
- --predefine="__UVISION_VERSION SETA 518" --predefine="_RTE_ SETA 1" --predefin
-e="NRF52810_XXAA SETA 1" --predefine="BOARD_PCA10040 SETA 1" --predefine="CONFI
-G_GPIO_AS_PINRESET SETA 1" --predefine="DEVELOP_IN_NRF52832 SETA 1" --predefine
-="FLOAT_ABI_SOFT SETA 1" --predefine="NRF52810_XXAA SETA 1" --predefine="NRF52_
-PAN_74 SETA 1" --predefine="NRF_SD_BLE_API_VERSION SETA 5" --predefine="S112 SE
-TA 1" --predefine="SOFTDEVICE_PRESENT SETA 1" --predefine="SWI_DISABLE0 SETA 1"
- --cpreproc_opts=-DBOARD_PCA10040,-DCONFIG_GPIO_AS_PINRESET,-DDEVELOP_IN_NRF528
-32,-DFLOAT_ABI_SOFT,-DNRF52810_XXAA,-DNRF52_PAN_74,-DNRF_SD_BLE_API_VERSION=5,-
-DS112,-DSOFTDEVICE_PRESENT,-DSWI_DISABLE0 --list=.\_build\arm_startup_nrf52810.
-lst RTE\Device\nRF52810_xxAA\arm_startup_nrf52810.s
+.\..\external\fprintf -I..\..\..\..\..\..\external\segger_rtt -I..\config -I.\R
+TE\_nrf52 -ID:\keil536\exe\ARM\CMSIS\4.5.0\CMSIS\Include -ID:\keil536\exe\Nordi
+cSemiconductor\nRF_DeviceFamilyPack\8.15.0\Device\Include --predefine="__MICROL
+IB SETA 1" --predefine="__UVISION_VERSION SETA 536" --predefine="_RTE_ SETA 1" 
+--predefine="NRF52810_XXAA SETA 1" --predefine="_RTE_ SETA 1" --predefine="BOAR
+D_PCA10040 SETA 1" --predefine="CONFIG_GPIO_AS_PINRESET SETA 1" --predefine="DE
+VELOP_IN_NRF52832 SETA 1" --predefine="FLOAT_ABI_SOFT SETA 1" --predefine="NRF5
+2810_XXAA SETA 1" --predefine="NRF52_PAN_74 SETA 1" --predefine="NRF_SD_BLE_API
+_VERSION SETA 5" --predefine="S112 SETA 1" --predefine="SOFTDEVICE_PRESENT SETA
+ 1" --predefine="SWI_DISABLE0 SETA 1" --cpreproc_opts=-DBOARD_PCA10040,-DCONFIG
+_GPIO_AS_PINRESET,-DDEVELOP_IN_NRF52832,-DFLOAT_ABI_SOFT,-DNRF52810_XXAA,-DNRF5
+2_PAN_74,-DNRF_SD_BLE_API_VERSION=5,-DS112,-DSOFTDEVICE_PRESENT,-DSWI_DISABLE0 
+--list=.\_build\arm_startup_nrf52810.lst RTE\Device\nRF52810_xxAA\arm_startup_n
+rf52810.s
 
 
 

@@ -1,4 +1,4 @@
---cpu Cortex-M4
+--cpu=Cortex-M4 --fpu=SoftVFP
 ".\_build\main.o"
 ".\_build\driver_init.o"
 ".\_build\ble_init.o"
@@ -62,6 +62,6 @@
 ".\_build\arm_startup_nrf52810.o"
 ".\_build\system_nrf52810.o"
 --library_type=microlib --strict --scatter ".\_build\ibeacon.sct"
---diag_suppress 6330 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--diag_suppress 6330 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\_build\ibeacon.map" -o .\_build\ibeacon.axf
