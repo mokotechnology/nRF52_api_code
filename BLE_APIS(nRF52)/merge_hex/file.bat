@@ -1,1 +1,0 @@
-mergehex -m ibeacon_boot.hex iBeacon.hex s112_nrf52810_5.1.0_softdevice.hex -o BLE_SDK_1.0.0.hex 

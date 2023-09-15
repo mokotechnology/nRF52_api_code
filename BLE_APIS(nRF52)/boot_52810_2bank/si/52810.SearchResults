@@ -1,3 +1,0 @@
----- DEFAULT_FRAME_DATA Matches (2 in 2 files) ----
-Es_app_config.h (e:\sdk14.2_52810\mdk_prj):#define DEFAULT_FRAME_DATA                  {DEFAULT_FRAME_TYPE, DEFAULT_FRAME_TX_POWER, APP_ES_URL_SCHEME, APP_ES_URL_URL}
-Nrf_ble_es.c (e:\sdk14.2_52810\components\libraries\eddystone):    uint8_t default_frame_data[DEFAULT_FRAME_LENGTH] = DEFAULT_FRAME_DATA;

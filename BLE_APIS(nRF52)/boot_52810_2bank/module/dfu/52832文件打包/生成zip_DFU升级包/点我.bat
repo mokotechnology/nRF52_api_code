@@ -1,1 +1,0 @@
-nrf.exe dfu genpkg ble_703_firmware.zip --application h703B.bin --application-version 0xff --dev-revision 1 --dev-type 1 --sd-req 0x98
