@@ -1,0 +1,1 @@
+nrf.exe dfu genpkg ble_eddystone_boot_firmware.zip --application eddystone_boot.bin --application-version 0xff --dev-revision 1 --dev-type 1 --sd-req 0x98
