@@ -4,7 +4,6 @@
  <Breakpoints groups="Breakpoints" active_group="Breakpoints">
   <BreakpointListItem trigger="Execute" line="0" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="0x18a98" group="Breakpoints" type="Breakpoint" state="3" filename="../MProject" useHWbreakpoint="false"/>
   <BreakpointListItem trigger="Execute" line="0" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="0x18abc" group="Breakpoints" type="Breakpoint" state="3" filename="../MProject" useHWbreakpoint="false"/>
-  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
  </Breakpoints>
  <ExecutionProfileWindow/>
  <FrameBufferWindow>
@@ -25,6 +24,11 @@
  <Project>
   <ProjectSessionItem path="BLE_SDK"/>
   <ProjectSessionItem path="BLE_SDK;BLE_SDK"/>
+  <ProjectSessionItem path="BLE_SDK;BLE_SDK;Application"/>
+  <ProjectSessionItem path="BLE_SDK;BLE_SDK;Application;BLE"/>
+  <ProjectSessionItem path="BLE_SDK;BLE_SDK;Application;DFU"/>
+  <ProjectSessionItem path="BLE_SDK;BLE_SDK;Middleware"/>
+  <ProjectSessionItem path="BLE_SDK;BLE_SDK;Middleware;user_hardware"/>
  </Project>
  <Register1>
   <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/msp;CPU/psp;CPU/cfbp;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="BLE_SDK" decimalNodes="" octalNodes="" unsignedNodes=""/>
@@ -56,6 +60,10 @@
  <Watch4>
   <Watches active="0" update="Never"/>
  </Watch4>
- <Files/>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="66" y="224" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../moko_src/Middleware/user_hardware/Src/in_flash_manage.c" selected="0" top="207" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="29" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="main.c" selected="0" top="18" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="17" useTextEdit="1" openedFrom="D:/MOKO-project-2024/nRF52_api_code/SDK_APIS(nRF52)/MProject/main.c" useBinaryEdit="0" left="0" path="../moko_src/Middleware/Shared/Inc/bsp.h" selected="1" top="0" codecName="Default"/>
+ </Files>
  <ARMCrossStudioWindow activeProject="BLE_SDK" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>

@@ -99,4 +99,8 @@ The  protocol Documentation path： ...BLE_APIS(nRF52)\doc\Uart Protocol
   Serial port data parsing function, parsing corresponding commands and function settings
 
 
+## 3.6 update
 
+### October 20, 2024‌
+
+1.Update the dfu check code to "MOKO"

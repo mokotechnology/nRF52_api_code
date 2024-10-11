@@ -223,7 +223,7 @@ void boot_to_new_appilacation(uint8_t* datain,uint8_t len)
 
 
 //const uint8_t version[3] __attribute__ ((at(APP_ADDR+1024)))= {'c','j','y'};
-const uint8_t version[3]  __attribute__((section(".dfu_data_check"))) = {'c','j','y'};
+const uint8_t version[4]  __attribute__((section(".dfu_data_check"))) = {'M','O','K','O'};
 
 void start_dfu(void)
 {
