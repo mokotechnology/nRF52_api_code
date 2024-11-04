@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/led_manage.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Src\led_manage.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Src\led_manage.c \
  ../moko_src\Middleware\user_hardware\Inc/led_manage.h \
  D:/segger/include/string.h D:/segger/include/__crossworks.h \
  D:/segger/include/stdint.h \

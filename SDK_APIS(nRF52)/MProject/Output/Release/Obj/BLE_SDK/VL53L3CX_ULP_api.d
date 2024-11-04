@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/VL53L3CX_ULP_api.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\VL53L3\Src\VL53L3CX_ULP_api.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\VL53L3\Src\VL53L3CX_ULP_api.c \
  ../moko_src\Middleware\user_hardware\Sensor\VL53L3\Inc/VL53L3CX_ULP_api.h \
  ../moko_src\Middleware\user_hardware\Sensor\VL53L3\Inc/vl53lx_platform.h \
  ../moko_src\Middleware\user_hardware\Sensor\VL53L3\Inc/vl53lx_ll_def.h \

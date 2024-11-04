@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/main.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\MProject\main.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\MProject\main.c \
  ../moko_src/Application/DFU/Inc/nrf_dfu.h D:/segger/include/stdint.h \
  D:/segger/include/stdbool.h D:/segger/include/string.h \
  D:/segger/include/__crossworks.h \
@@ -62,5 +62,4 @@ Output/Release/Obj/BLE_SDK/main.o: \
  ../moko_src\Middleware\user_hardware\Inc/led_manage.h \
  ../moko_src/Application/hardware/Inc/user_flash.h \
  ../moko_src\Middleware\user_hardware\UART\Inc/uart_commd.h \
- ../moko_src/Middleware/Shared/Inc/bsp.h \
- ../moko_src\Middleware\user_hardware\Sensor\VL53L3\Inc/vl53lx_app.h
+ ../moko_src/Middleware/Shared/Inc/bsp.h

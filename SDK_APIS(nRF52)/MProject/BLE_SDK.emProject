@@ -16,7 +16,7 @@
       arm_target_device_name="nRF52810_xxAA"
       arm_target_interface_type="SWD"
       c_preprocessor_definitions="BOARD_PCA10040;CONFIG_GPIO_AS_PINRESET;DEVELOP_IN_NRF52832;FLOAT_ABI_SOFT;NRF52810_XXAA;NRF52_PAN_74;NRF_SD_BLE_API_VERSION=5;S112;SOFTDEVICE_PRESENT;SWI_DISABLE0;INITIALIZE_USER_SECTIONS;NO_VTOR_CONFIG"
-      c_user_include_directories="../nRF_SDK_14.2/components;../nRF_SDK_14.2/components/ble/ble_advertising;../nRF_SDK_14.2/components/ble/ble_dtm;../nRF_SDK_14.2/components/ble/ble_racp;../nRF_SDK_14.2/components/ble/ble_services/ble_bas;../nRF_SDK_14.2/components/ble/ble_services/ble_bas_c;../nRF_SDK_14.2/components/ble/ble_services/ble_cscs;../nRF_SDK_14.2/components/ble/ble_services/ble_cts_c;../nRF_SDK_14.2/components/ble/ble_services/ble_dis;../nRF_SDK_14.2/components/ble/ble_services/ble_gls;../nRF_SDK_14.2/components/ble/ble_services/ble_lbs_c;../nRF_SDK_14.2/components/ble/ble_services/ble_lls;../nRF_SDK_14.2/components/ble/ble_services/ble_tps;../nRF_SDK_14.2/components/ble/common;../nRF_SDK_14.2/components/ble/nrf_ble_qwr;../nRF_SDK_14.2/components/ble/peer_manager;../nRF_SDK_14.2/components/boards;../nRF_SDK_14.2/components/device;../nRF_SDK_14.2/components/drivers_nrf/clock;../nRF_SDK_14.2/components/drivers_nrf/common;../nRF_SDK_14.2/components/drivers_nrf/comp;../nRF_SDK_14.2/components/drivers_nrf/delay;../nRF_SDK_14.2/components/drivers_nrf/gpiote;../nRF_SDK_14.2/components/drivers_nrf/hal;../nRF_SDK_14.2/components/drivers_nrf/pdm;../nRF_SDK_14.2/components/drivers_nrf/power;../nRF_SDK_14.2/components/drivers_nrf/ppi;../nRF_SDK_14.2/components/drivers_nrf/saadc;../nRF_SDK_14.2/components/drivers_nrf/timer;../nRF_SDK_14.2/components/drivers_nrf/uart;../nRF_SDK_14.2/components/libraries/atomic;../nRF_SDK_14.2/components/libraries/atomic_fifo;../nRF_SDK_14.2/components/libraries/balloc;../nRF_SDK_14.2/components/libraries/ecc;../nRF_SDK_14.2/components/libraries/experimental_log;../nRF_SDK_14.2/components/libraries/experimental_log/src;../nRF_SDK_14.2/components/libraries/experimental_memobj;../nRF_SDK_14.2/components/libraries/experimental_section_vars;../nRF_SDK_14.2/components/libraries/fds;../nRF_SDK_14.2/components/libraries/fifo;../nRF_SDK_14.2/components/libraries/fstorage;../nRF_SDK_14.2/components/libraries/gpiote;../nRF_SDK_14.2/components/libraries/hardfault;../nRF_SDK_14.2/components/libraries/hci;../nRF_SDK_14.2/components/libraries/led_softblink;../nRF_SDK_14.2/components/libraries/low_power_pwm;../nRF_SDK_14.2/components/libraries/mem_manager;../nRF_SDK_14.2/components/libraries/pwr_mgmt;../nRF_SDK_14.2/components/libraries/slip;../nRF_SDK_14.2/components/libraries/strerror;../nRF_SDK_14.2/components/libraries/timer;../nRF_SDK_14.2/components/libraries/uart;../nRF_SDK_14.2/components/libraries/util;../nRF_SDK_14.2/components/softdevice/common;../nRF_SDK_14.2/components/softdevice/s112/headers;../nRF_SDK_14.2/components/softdevice/s112/headers/nrf52;../nRF_SDK_14.2/components/segger_rtt;../nRF_SDK_14.2/components/toolchain;../nRF_SDK_14.2/components/toolchain/cmsis/include;../config;../nRF_SDK_14.2/components/ble/nrf_ble_gatt;../moko_src/Application/BLE/Inc;../moko_src/Application/DFU/Inc;../moko_src/Application/hardware/Inc;../moko_src/Middleware/Shared/Inc;../moko_src/Middleware/user_ble/Inc;../moko_src\\Middleware\\user_hardware\\Inc;../moko_src\\Middleware\\user_hardware\\UART\\Inc;../moko_src\\Middleware\\user_hardware\\Sensor\\LIS3DH\\Inc;../moko_src\\Middleware\\user_hardware\\Sensor\\SHT30\\Inc;../moko_src\\Middleware\\user_hardware\\Sensor\\STK8328\\Inc;../moko_src\\Middleware\\user_hardware\\Sensor\\VL53L3\\Inc"
+      c_user_include_directories="../nRF_SDK_14.2/components;../nRF_SDK_14.2/components/ble/ble_advertising;../nRF_SDK_14.2/components/ble/ble_dtm;../nRF_SDK_14.2/components/ble/ble_racp;../nRF_SDK_14.2/components/ble/ble_services/ble_bas;../nRF_SDK_14.2/components/ble/ble_services/ble_bas_c;../nRF_SDK_14.2/components/ble/ble_services/ble_cscs;../nRF_SDK_14.2/components/ble/ble_services/ble_cts_c;../nRF_SDK_14.2/components/ble/ble_services/ble_dis;../nRF_SDK_14.2/components/ble/ble_services/ble_gls;../nRF_SDK_14.2/components/ble/ble_services/ble_lbs_c;../nRF_SDK_14.2/components/ble/ble_services/ble_lls;../nRF_SDK_14.2/components/ble/ble_services/ble_tps;../nRF_SDK_14.2/components/ble/common;../nRF_SDK_14.2/components/ble/nrf_ble_qwr;../nRF_SDK_14.2/components/ble/peer_manager;../nRF_SDK_14.2/components/boards;../nRF_SDK_14.2/components/device;../nRF_SDK_14.2/components/drivers_nrf/clock;../nRF_SDK_14.2/components/drivers_nrf/common;../nRF_SDK_14.2/components/drivers_nrf/comp;../nRF_SDK_14.2/components/drivers_nrf/delay;../nRF_SDK_14.2/components/drivers_nrf/gpiote;../nRF_SDK_14.2/components/drivers_nrf/hal;../nRF_SDK_14.2/components/drivers_nrf/pdm;../nRF_SDK_14.2/components/drivers_nrf/power;../nRF_SDK_14.2/components/drivers_nrf/ppi;../nRF_SDK_14.2/components/drivers_nrf/spi_master;../nRF_SDK_14.2/components/drivers_nrf/saadc;../nRF_SDK_14.2/components/drivers_nrf/timer;../nRF_SDK_14.2/components/drivers_nrf/uart;../nRF_SDK_14.2/components/libraries/atomic;../nRF_SDK_14.2/components/libraries/atomic_fifo;../nRF_SDK_14.2/components/libraries/balloc;../nRF_SDK_14.2/components/libraries/ecc;../nRF_SDK_14.2/components/libraries/experimental_log;../nRF_SDK_14.2/components/libraries/experimental_log/src;../nRF_SDK_14.2/components/libraries/experimental_memobj;../nRF_SDK_14.2/components/libraries/experimental_section_vars;../nRF_SDK_14.2/components/libraries/fds;../nRF_SDK_14.2/components/libraries/fifo;../nRF_SDK_14.2/components/libraries/fstorage;../nRF_SDK_14.2/components/libraries/gpiote;../nRF_SDK_14.2/components/libraries/hardfault;../nRF_SDK_14.2/components/libraries/hci;../nRF_SDK_14.2/components/libraries/led_softblink;../nRF_SDK_14.2/components/libraries/low_power_pwm;../nRF_SDK_14.2/components/libraries/mem_manager;../nRF_SDK_14.2/components/libraries/pwr_mgmt;../nRF_SDK_14.2/components/libraries/slip;../nRF_SDK_14.2/components/libraries/strerror;../nRF_SDK_14.2/components/libraries/timer;../nRF_SDK_14.2/components/libraries/uart;../nRF_SDK_14.2/components/libraries/util;../nRF_SDK_14.2/components/softdevice/common;../nRF_SDK_14.2/components/softdevice/s112/headers;../nRF_SDK_14.2/components/softdevice/s112/headers/nrf52;../nRF_SDK_14.2/components/segger_rtt;../nRF_SDK_14.2/components/toolchain;../nRF_SDK_14.2/components/toolchain/cmsis/include;../config;../nRF_SDK_14.2/components/ble/nrf_ble_gatt;../moko_src/Application/BLE/Inc;../moko_src/Application/DFU/Inc;../moko_src/Application/hardware/Inc;../moko_src/Middleware/Shared/Inc;../moko_src/Middleware/user_ble/Inc;../moko_src\\Middleware\\user_hardware\\Inc;../moko_src\\Middleware\\user_hardware\\UART\\Inc;../moko_src\\Middleware\\user_hardware\\Sensor\\LIS3DH\\Inc;../moko_src\\Middleware\\user_hardware\\Sensor\\SHT30\\Inc;../moko_src\\Middleware\\user_hardware\\Sensor\\STK8328\\Inc;../moko_src\\Middleware\\user_hardware\\Sensor\\VL53L3\\Inc"
       debug_additional_load_file="../nRF_SDK_14.2/components/softdevice/s112/hex/s112_nrf52810_5.1.0_softdevice.hex"
       debug_register_definition_file="../nRF_SDK_14.2/svd/nrf52810.svd"
       debug_start_from_entry_point_symbol="No"
@@ -50,7 +50,6 @@
       <folder Name="hardware">
         <file file_name="../moko_src/Application/hardware/Src/driver_init.c" />
         <file file_name="../moko_src/Application/hardware/Src/system_time.c" />
-        <file file_name="../moko_src/Application/hardware/Src/tof_app.c" />
         <file file_name="../moko_src/Application/hardware/Src/user_flash.c" />
         <file file_name="../moko_src/Application/hardware/Src/wdt.c" />
       </folder>
@@ -66,46 +65,7 @@
             <file file_name="../moko_src/Middleware/user_hardware/Sensor/LIS3DH/Src/lis3dh_app.c" />
             <file file_name="../moko_src/Middleware/user_hardware/Sensor/LIS3DH/Src/lis3dh_driver.c" />
             <file file_name="../moko_src/Middleware/user_hardware/Sensor/LIS3DH/Src/spi_io.c" />
-          </folder>
-          <folder Name="SHT30">
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/SHT30/Src/iic_io.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/SHT30/Src/sht3x_driver.c" />
-          </folder>
-          <folder Name="STK8328">
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/STK8328/Src/stk832x_app.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/STK8328/Src/stk832x_driver.c" />
-          </folder>
-          <folder Name="VL53L3">
-            <configuration
-              Name="Release"
-              gcc_optimization_level="Level 2 for size" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/VL53L3CX_ULP_api.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/VL53L3CX_ULP_platform.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53l0x_iic.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_api.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_api_calibration.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_api_core.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_api_debug.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_api_preset_modes.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_app.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_core.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_core_support.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_dmax.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_hist_algos_gen3.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_hist_algos_gen4.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_hist_char.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_hist_core.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_hist_funcs.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_nvm.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_nvm_debug.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_platform.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_platform_init.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_platform_ipp.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_register_funcs.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_sigma_estimate.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_silicon_core.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_wait.c" />
-            <file file_name="../moko_src/Middleware/user_hardware/Sensor/VL53L3/Src/vl53lx_xtalk.c" />
+            <file file_name="../moko_src/Middleware/user_hardware/Sensor/LIS3DH/Src/spi52.c" />
           </folder>
         </folder>
         <file file_name="../moko_src/Middleware/user_hardware/Src/battery_check.c" />
@@ -147,6 +107,7 @@
         <file file_name="../nRF_SDK_14.2/components/drivers_nrf/saadc/nrf_drv_saadc.c" />
         <file file_name="../nRF_SDK_14.2/components/drivers_nrf/uart/nrf_drv_uart.c" />
         <file file_name="../nRF_SDK_14.2/components/drivers_nrf/hal/nrf_saadc.c" />
+        <file file_name="../nRF_SDK_14.2/components/drivers_nrf/spi_master/nrf_drv_spi.c" />
       </folder>
       <folder Name="nRF_Libraries">
         <file file_name="../nRF_SDK_14.2/components/libraries/fifo/app_fifo.c" />

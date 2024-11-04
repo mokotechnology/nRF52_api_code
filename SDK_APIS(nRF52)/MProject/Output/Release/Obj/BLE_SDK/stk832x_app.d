@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/stk832x_app.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\STK8328\Src\stk832x_app.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\STK8328\Src\stk832x_app.c \
  ../moko_src\Middleware\user_hardware\Sensor\STK8328\Inc/stk832x_app.h \
  D:/segger/include/stdbool.h D:/segger/include/stdint.h \
  D:/segger/include/string.h D:/segger/include/__crossworks.h \

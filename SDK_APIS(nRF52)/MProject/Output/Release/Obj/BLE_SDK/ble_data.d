@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/ble_data.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\moko_src\Application\BLE\Src\ble_data.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Application\BLE\Src\ble_data.c \
  ../moko_src/Application/BLE/Inc/ble_data.h D:/segger/include/stdint.h \
  ../moko_src/Middleware/user_ble/Inc/periph_service.h \
  D:/segger/include/stdbool.h ../config/sdk_config.h \

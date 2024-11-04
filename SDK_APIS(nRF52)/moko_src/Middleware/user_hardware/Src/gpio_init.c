@@ -53,11 +53,6 @@ void pin_irq_handle(nrf_drv_gpiote_pin_t pin_no, nrf_gpiote_polarity_t action)
 		BLE_RTT("3axis irq enable...\r\n");
 	}
 
-    if(nrf_gpio_pin_read(GPIO1_PIN)==0)
-	{ 
-		set_tof_int_flg();
-		//BLE_RTT("GPIO1_PIN**********************************\r\n");
-	}
 }
 
 /**********************************************************************
@@ -111,21 +106,6 @@ void enable_pin_irq(uint32_t pin,bool enable_flg)
 
 
 
-
-
-/****************************************
-*user_gpio_init
-***************************************/
-void user_gpio_init(void)
-{	
-	if(lis3dh_init()==false)
-	{
-	   nrf_delay_ms(20);
-       STK832x_Init();
-	}
-	nrf_gpio_cfg_input(LIS3DH_INT1_PIN,NRF_GPIO_PIN_NOPULL);
-	enable_pin_irq(LIS3DH_INT1_PIN,true);
-}
 
 
 

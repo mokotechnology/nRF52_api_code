@@ -7,9 +7,12 @@
 #include <string.h>
 #include "stdbool.h"
 
+#define SPI_CS      29
+#define  LIS3DH_INT1_PIN	28
 
 
-
+#define    SPI_Enable_CS()        NRF_GPIO->OUTCLR = (1UL << SPI_CS)  
+#define    SPI_Disable_CS()       NRF_GPIO->OUTSET = (1UL << SPI_CS) 
 
 
 

@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/system_time.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\moko_src\Application\hardware\Src\system_time.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Application\hardware\Src\system_time.c \
  ../moko_src/Application/hardware/Inc/system_time.h \
  ../nRF_SDK_14.2/components/libraries/timer/app_timer.h \
  ../config/sdk_config.h \
@@ -46,5 +46,4 @@ Output/Release/Obj/BLE_SDK/system_time.o: \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_err.h \
  ../moko_src\Middleware\user_hardware\UART\Inc/simple_uart.h \
  ../moko_src\Middleware\user_hardware\Sensor\LIS3DH\Inc/lis3dh_app.h \
- ../moko_src\Middleware\user_hardware\Sensor\STK8328\Inc/stk832x_app.h \
  ../moko_src/Application/hardware/Inc/tof_app.h

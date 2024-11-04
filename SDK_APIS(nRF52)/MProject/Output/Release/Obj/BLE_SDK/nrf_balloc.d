@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/nrf_balloc.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\balloc\nrf_balloc.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\balloc\nrf_balloc.c \
  ../nRF_SDK_14.2/components/libraries/util/sdk_common.h \
  D:/segger/include/stdint.h D:/segger/include/stdbool.h \
  D:/segger/include/string.h D:/segger/include/__crossworks.h \
@@ -23,7 +23,7 @@ Output/Release/Obj/BLE_SDK/nrf_balloc.o: \
  ../nRF_SDK_14.2/components/device/nrf52_to_nrf52810.h \
  ../nRF_SDK_14.2/components/device/compiler_abstraction.h \
  ../nRF_SDK_14.2/components/libraries/util/sdk_macros.h \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\balloc\nrf_balloc.h \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\balloc\nrf_balloc.h \
  ../nRF_SDK_14.2/components/libraries/util/sdk_errors.h \
  ../nRF_SDK_14.2/components/libraries/util/app_util_platform.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/nrf_soc.h \

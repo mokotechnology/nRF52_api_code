@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/iic_io.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\SHT30\Src\iic_io.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\SHT30\Src\iic_io.c \
  ../moko_src\Middleware\user_hardware\Sensor\SHT30\Inc/iic_io.h \
  D:/segger/include/stdbool.h D:/segger/include/stdint.h \
  ../nRF_SDK_14.2/components/drivers_nrf/hal/nrf_gpio.h \

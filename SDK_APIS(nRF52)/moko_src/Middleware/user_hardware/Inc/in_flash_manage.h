@@ -62,8 +62,8 @@ start               end             size                left                	ite
 //=========================================================================================
 */
 
-//#define FLASH_SIZE  (192*1024)
-#define FLASH_SIZE  (512*1024)
+#define FLASH_SIZE  (192*1024)
+//#define FLASH_SIZE  (512*1024)
 
 
 #define SOFTDEVICE (0)

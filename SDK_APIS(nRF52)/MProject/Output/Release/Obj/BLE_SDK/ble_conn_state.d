@@ -1,6 +1,6 @@
 Output/Release/Obj/BLE_SDK/ble_conn_state.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_conn_state.c \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_conn_state.h \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_conn_state.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_conn_state.h \
  D:/segger/include/stdbool.h D:/segger/include/stdint.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_ranges.h \

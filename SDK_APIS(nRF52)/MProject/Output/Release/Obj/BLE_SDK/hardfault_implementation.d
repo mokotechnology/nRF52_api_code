@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/hardfault_implementation.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\hardfault\hardfault_implementation.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\hardfault\hardfault_implementation.c \
  ../nRF_SDK_14.2/components/libraries/util/sdk_common.h \
  D:/segger/include/stdint.h D:/segger/include/stdbool.h \
  D:/segger/include/string.h D:/segger/include/__crossworks.h \

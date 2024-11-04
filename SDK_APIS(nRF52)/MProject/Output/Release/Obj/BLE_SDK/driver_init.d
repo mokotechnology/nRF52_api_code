@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/driver_init.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\moko_src\Application\hardware\Src\driver_init.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Application\hardware\Src\driver_init.c \
  ../moko_src/Application/hardware/Inc/driver_init.h \
  ../nRF_SDK_14.2/components/drivers_nrf/hal/nrf_gpio.h \
  ../nRF_SDK_14.2/components/device/nrf.h \
@@ -43,7 +43,6 @@ Output/Release/Obj/BLE_SDK/driver_init.o: \
  ../moko_src/Application/hardware/Inc/wdt.h D:/segger/include/string.h \
  ../moko_src\Middleware\user_hardware\UART\Inc/simple_uart.h \
  ../moko_src\Middleware\user_hardware\Inc/led_manage.h \
- ../moko_src\Middleware\user_hardware\Sensor\SHT30\Inc/sht3x_driver.h \
  ../moko_src/Application/hardware/Inc/user_flash.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_gap.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_hci.h \
@@ -57,4 +56,4 @@ Output/Release/Obj/BLE_SDK/driver_init.o: \
  ../nRF_SDK_14.2/components/libraries/util/app_util_platform.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/nrf_nvic.h \
  ../nRF_SDK_14.2/components/libraries/util/nrf_assert.h \
- ../moko_src\Middleware\user_hardware\Sensor\VL53L3\Inc/vl53lx_app.h
+ ../moko_src\Middleware\user_hardware\Sensor\LIS3DH\Inc/lis3dh_app.h

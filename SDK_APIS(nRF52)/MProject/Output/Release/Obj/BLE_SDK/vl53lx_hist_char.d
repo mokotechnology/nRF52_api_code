@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/vl53lx_hist_char.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\VL53L3\Src\vl53lx_hist_char.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\VL53L3\Src\vl53lx_hist_char.c \
  D:/segger/include/stdio.h D:/segger/include/__crossworks.h \
  D:/segger/include/stdlib.h \
  ../moko_src\Middleware\user_hardware\Sensor\VL53L3\Inc/vl53lx_core.h \

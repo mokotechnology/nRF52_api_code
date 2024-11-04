@@ -87,7 +87,6 @@ void device_OnOff_manage(void)
 		case 0://device on sta
 			BLE_RTT("device on...... \r\n");
 		    led_ctrl(50,50,20);
-            reset_cur_tof_interval();
                     
 		    set_ble_start();
 		    device_sta=1;

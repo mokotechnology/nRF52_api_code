@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/app_error.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\app_error.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\app_error.c \
  ../nRF_SDK_14.2/components/device/nrf.h \
  ../nRF_SDK_14.2/components/device/nrf52810.h \
  ../nRF_SDK_14.2/components/toolchain/cmsis/include/core_cm4.h \
@@ -14,10 +14,10 @@ Output/Release/Obj/BLE_SDK/app_error.o: \
  ../nRF_SDK_14.2/components/device/nrf52_to_nrf52810.h \
  ../nRF_SDK_14.2/components/device/compiler_abstraction.h \
  D:/segger/include/stdio.h D:/segger/include/__crossworks.h \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\app_error.h \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\app_error.h \
  D:/segger/include/stdbool.h \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\sdk_errors.h \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\sdk_errors.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/nrf_error.h \
  ../config/sdk_config.h \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\nordic_common.h \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\app_error_weak.h
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\nordic_common.h \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\app_error_weak.h

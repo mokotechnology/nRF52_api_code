@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/nrf_drv_gpiote.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\nRF_SDK_14.2\components\drivers_nrf\gpiote\nrf_drv_gpiote.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\drivers_nrf\gpiote\nrf_drv_gpiote.c \
  ../nRF_SDK_14.2/components/libraries/util/sdk_common.h \
  D:/segger/include/stdint.h D:/segger/include/stdbool.h \
  D:/segger/include/string.h D:/segger/include/__crossworks.h \
@@ -23,7 +23,7 @@ Output/Release/Obj/BLE_SDK/nrf_drv_gpiote.o: \
  ../nRF_SDK_14.2/components/device/nrf52_to_nrf52810.h \
  ../nRF_SDK_14.2/components/device/compiler_abstraction.h \
  ../nRF_SDK_14.2/components/libraries/util/sdk_macros.h \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\nRF_SDK_14.2\components\drivers_nrf\gpiote\nrf_drv_gpiote.h \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\drivers_nrf\gpiote\nrf_drv_gpiote.h \
  ../nRF_SDK_14.2/components/drivers_nrf/hal/nrf_gpiote.h \
  ../nRF_SDK_14.2/components/drivers_nrf/hal/nrf_peripherals.h \
  ../nRF_SDK_14.2/components/device/nrf52810_peripherals.h \

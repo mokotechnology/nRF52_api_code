@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/ble_init.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\moko_src\Application\BLE\Src\ble_init.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Application\BLE\Src\ble_init.c \
  ../moko_src/Application/BLE/Inc/ble_init.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_gap.h \
  D:/segger/include/stdint.h \

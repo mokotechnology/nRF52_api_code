@@ -1,5 +1,5 @@
 #include "lis3dh_driver.h"
-#include "spi_io.h"
+#include "spi52.h"
 #include "nrf_delay.h"
 #include "nrf_gpio.h"
 #include "bsp.h"
@@ -18,19 +18,22 @@ bool LIS3DH_ReadReg(uint8_t Reg, uint8_t* Data)// note!!! use this function for 
 {
     uint8_t SPIMast_Buf[SPI_BUFSIZE];
     uint8_t SPISla_Buf[SPI_BUFSIZE];
-
+	
     /* Write transaction */
 //  uint8_t transfer_size = 2;
     SPIMast_Buf[0] = Reg | LIS3DH_READBIT;
+	
 
     SPI_Enable_CS();
-    software_spi00_send_dat(SPIMast_Buf,2);
-    software_spi00_receiver_buf(SPISla_Buf,2);
+	spi_send(0,SPIMast_Buf,1,0,0);
+	spi_send(0,0,0,SPISla_Buf,1);
+//    software_spi00_send_dat(SPIMast_Buf,2);
+//    software_spi00_receiver_buf(SPISla_Buf,2);
     SPI_Disable_CS();
-
+	
     /* Send received value back to the caller */
-    *Data = SPISla_Buf[1];
-//	BLE_RTT("Read-SPIAddr : %x, Data : %x\r\n",Reg,SPISla_Buf[1]);
+    *Data = SPISla_Buf[0];
+
     return true;
 }
 
@@ -45,10 +48,11 @@ bool LIS3DH_WriteReg(uint8_t WriteAddr, uint8_t Data)
 //  SPIReadLength = 0;
     SPIMast_Buf[0] = (WriteAddr&0x7f);
     SPIMast_Buf[1] = (Data);
-//	BLE_RTT("Write-SPIAddr : %x, Data : %x\r\n",WriteAddr,Data);
+
     /* Check if we got an ACK or TIMEOUT error */
     SPI_Enable_CS();
-    software_spi00_send_dat(SPIMast_Buf,2);
+	spi_send(0,SPIMast_Buf,2,0,0);
+//    software_spi00_send_dat(SPIMast_Buf,2);
     SPI_Disable_CS();
 
     return true;
@@ -340,8 +344,8 @@ status_t LIS3DH_FIFOModeEnable(LIS3DH_FifoMode_t fm)
 status_t LIS3DH_GetAccAxesRaw(AxesRaw_t* buff)
 {
     int16_t value;
-    uint8_t *valueL = ((uint8_t *)(&value)+1);
-    uint8_t *valueH = (uint8_t *)(&value);
+    uint8_t *valueL = ((uint8_t *)(&value));
+    uint8_t *valueH = ((uint8_t *)(&value)+1);
 
     if( !LIS3DH_ReadReg(LIS3DH_OUT_X_L, valueL) )
         return MEMS_ERROR;

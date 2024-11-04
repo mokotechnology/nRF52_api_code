@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/in_flash_manage.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Src\in_flash_manage.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Src\in_flash_manage.c \
  ../moko_src\Middleware\user_hardware\Inc/in_flash_manage.h \
  ../nRF_SDK_14.2/components/device/nrf52810_bitfields.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/nrf_soc.h \

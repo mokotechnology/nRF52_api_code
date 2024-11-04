@@ -1,6 +1,6 @@
 #include "lis3dh_app.h"
 #include "lis3dh_driver.h"
-#include "spi_io.h"
+#include "spi52.h"
 #include "nrf_gpio.h"
 #include "nrf_delay.h"
 
@@ -20,6 +20,9 @@ bool  get_3dh_sensor_state(void)
 *********************************************/
 static void lis3dh_INT1_init(void)
 {
+        nrf_gpio_cfg_input(LIS3DH_INT1_PIN,NRF_GPIO_PIN_NOPULL);
+	enable_pin_irq(LIS3DH_INT1_PIN,true);
+
 	LIS3DH_SetInt1Pin(LIS3DH_I1_INT1_ON_PIN_INT1_ENABLE);
 //	LIS3DH_SetFilterDataSel(MEMS_ENABLE);
 	LIS3DH_HPFAOI1Enable(MEMS_ENABLE);
@@ -39,7 +42,7 @@ bool lis3dh_init(void)
 	uint8_t i,who_am_i=0xff;
 	nrf_gpio_cfg_output(SPI_CS);
 	nrf_gpio_pin_set(SPI_CS);
-	software_spi_init(SPI_MISO,SPI_MOSI,SPI_SCLK); 
+	EnableSpi(true,0,SPI_MISO_PIN,SPI_MOSI_PIN,SPI_SCK_PIN);
 	
 	nrf_delay_ms(20);
 	for(i=0;i<3;i++)
@@ -48,12 +51,12 @@ bool lis3dh_init(void)
 		if(who_am_i==0x33)
 		{
 			is_have_3dh = true;
-			BLE_RTT("[3DH]  have lis3dh....\r\n");
+			
 			break;
 		}
 		is_have_3dh = false;	
     }
-	
+	BLE_RTT("[3DH] init ID: %x\r\n",who_am_i)
 	//is no lis3dh
 	if(is_have_3dh == false)   return false;
 	
@@ -65,8 +68,8 @@ bool lis3dh_init(void)
 	LIS3DH_SetODR(LIS3DH_ODR_10Hz); // ? ??? LIS3DH_ODR_25Hz
 	LIS3DH_SetFullScale(LIS3DH_FULLSCALE_2); // ? ???+-2g
 	
-//	LIS3DH_SetBLE(LIS3DH_BLE_MSB); //  LIS3DH_BLE_MSB  LIS3DH_BLE_LSB
-//	LIS3DH_SetBDU(MEMS_DISABLE); //BDU
+	LIS3DH_SetBLE(LIS3DH_BLE_MSB); //  LIS3DH_BLE_MSB  LIS3DH_BLE_LSB
+	LIS3DH_SetBDU(MEMS_DISABLE); //BDU
 	
 	LIS3DH_FIFOModeEnable(LIS3DH_FIFO_STREAM_MODE);
 //	LIS3DH_SetWaterMark(31);	
@@ -93,6 +96,7 @@ void task_read_3dh(void)
 	if(++time_cnt<2)  return;
 	     time_cnt=0;
 	
+        EnableSpi(true,0,SPI_MISO_PIN,SPI_MOSI_PIN,SPI_SCK_PIN);
 	AxesRaw_t xdata;
 
 	LIS3DH_GetAccAxesRaw(&xdata);
@@ -101,6 +105,6 @@ void task_read_3dh(void)
 	xdata.AXIS_Y =  xdata.AXIS_Y >> XXXX;
 	xdata.AXIS_Z =  xdata.AXIS_Z >> XXXX;
 	
-	BLE_RTT("[3DH] X=0x%x  Y=0x%x  Z=0x%x\r\n",xdata.AXIS_X,xdata.AXIS_Y,xdata.AXIS_Z);
+	BLE_RTT("[3DH] X=%dmg  Y=%dmg  Z=%dmg\r\n",xdata.AXIS_X,xdata.AXIS_Y,xdata.AXIS_Z);
 }
 

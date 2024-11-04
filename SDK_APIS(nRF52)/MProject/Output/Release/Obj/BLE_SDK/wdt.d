@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/wdt.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\moko_src\Application\hardware\Src\wdt.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Application\hardware\Src\wdt.c \
  ../moko_src/Application/hardware/Inc/wdt.h D:/segger/include/stdbool.h \
  D:/segger/include/stdint.h D:/segger/include/string.h \
  D:/segger/include/__crossworks.h \

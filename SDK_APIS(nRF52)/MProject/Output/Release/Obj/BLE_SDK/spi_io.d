@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/spi_io.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\LIS3DH\Src\spi_io.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\LIS3DH\Src\spi_io.c \
  ../moko_src\Middleware\user_hardware\Sensor\LIS3DH\Inc/spi_io.h \
  D:/segger/include/stdint.h \
  ../nRF_SDK_14.2/components/drivers_nrf/hal/nrf_gpio.h \

@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/vl53l0x_iic.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\VL53L3\Src\vl53l0x_iic.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\VL53L3\Src\vl53l0x_iic.c \
  ../moko_src\Middleware\user_hardware\Sensor\VL53L3\Inc/vl53l0x_iic.h \
  ../nRF_SDK_14.2/components/drivers_nrf/hal/nrf_gpio.h \
  ../nRF_SDK_14.2/components/device/nrf.h \

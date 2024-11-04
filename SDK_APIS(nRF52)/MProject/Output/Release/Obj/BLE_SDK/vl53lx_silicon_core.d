@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/vl53lx_silicon_core.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\VL53L3\Src\vl53lx_silicon_core.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\VL53L3\Src\vl53lx_silicon_core.c \
  ../moko_src\Middleware\user_hardware\Sensor\VL53L3\Inc/vl53lx_platform.h \
  ../moko_src\Middleware\user_hardware\Sensor\VL53L3\Inc/vl53lx_ll_def.h \
  ../moko_src\Middleware\user_hardware\Sensor\VL53L3\Inc/vl53lx_platform_user_config.h \

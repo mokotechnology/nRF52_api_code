@@ -10,7 +10,6 @@
 #include "user_flash.h"
 #include "uart_commd.h"
 #include "bsp.h"
-#include "vl53lx_app.h"
 
 
 /**************************************************
@@ -44,19 +43,18 @@ int main(void)
     for (;;)
     {
         
-		led_timer_manage();
+	led_timer_manage();
 				
         task_process_uart_data();
-		task_uart_manage();
+	task_uart_manage();
 			
-		//down dfu file 
-	    task_dfu_upfile();			
-		task_system_timer();
+	//down dfu file 
+	task_dfu_upfile();			
+	task_system_timer();
 
-        calculate_vl53lx_distance();
 		
-		task_save_flash();
-		Feed_WacthDog();
+        task_save_flash();
+	Feed_WacthDog();
         Power_manager();
     }
 }

@@ -101,6 +101,14 @@ The  protocol Documentation path： ...BLE_APIS(nRF52)\doc\Uart Protocol
 
 ## 3.6 update
 
-### October 20, 2024‌
+### Oct. 20, 2024‌
 
 1.Update the dfu check code to "MOKO"
+
+### Nov. 04, 2024‌
+
+1.Delete some sensor drivers to save firmware space
+
+2.Change the storage address to fit 52810
+
+3.Optimized lis3dh driver

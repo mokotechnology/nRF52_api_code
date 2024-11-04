@@ -9,7 +9,6 @@
 #include "ble_comm.h"
 #include "simple_uart.h"
 #include "lis3dh_app.h"
-#include "stk832x_app.h"
 #include "tof_app.h"
 
 /********************************************************************/ // variable variable define 
@@ -59,10 +58,9 @@ void system_timer_stop(void)
 **********************************/
 static void task_read_3_axis(void)
 {
-   if(get_3dh_sensor_state()==true)	
-	   task_read_3dh();
-   else
-	   STK832x_read_data();
+    if(get_3dh_sensor_state()==true)	
+        task_read_3dh();
+
 }
 
 
@@ -74,24 +72,22 @@ static void task_read_3_axis(void)
 ************************************/
 void task_system_timer(void)
 {	
-	if(system_timer_flg==0) return;	
-	
-	   system_timer_flg =0;
-	
-	task_ble_tx_power();
-	
-	device_OnOff_manage();
-	task_ble_adv_start();
-	
-	task_check_uart_timeout();
-	
-	get_nrf52_chip_temp();
+    if(system_timer_flg==0) return;	
+    
+       system_timer_flg =0;
+    
+    task_ble_tx_power();
+    
+    device_OnOff_manage();
+    task_ble_adv_start();
+    
+    task_check_uart_timeout();
+    
+    get_nrf52_chip_temp();
 	
     task_read_3_axis();
-	task_read_sht3x();
-	
-	task_tof_interval_tick(1);
-    Task_Change_TofMode(1);
+
+
 }  
 
 

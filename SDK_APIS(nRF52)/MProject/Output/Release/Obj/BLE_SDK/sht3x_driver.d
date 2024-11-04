@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/sht3x_driver.o: \
- D:\MOKO-project-2024\nRF52_api_code\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\SHT30\Src\sht3x_driver.c \
+ D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\SHT30\Src\sht3x_driver.c \
  ../moko_src\Middleware\user_hardware\Sensor\SHT30\Inc/sht3x_driver.h \
  D:/segger/include/stdbool.h D:/segger/include/stdint.h \
  D:/segger/include/string.h D:/segger/include/__crossworks.h \

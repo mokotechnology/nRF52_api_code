@@ -8,11 +8,10 @@
 #include "wdt.h"
 #include "simple_uart.h"
 #include "led_manage.h"
-#include "sht3x_driver.h"
 #include "user_flash.h"
 #include "lis3dh_driver.h"
 #include "bsp.h"
-#include "vl53lx_app.h"
+#include "lis3dh_app.h"
 
 /***********************************************
 *is_newPcb
@@ -39,19 +38,16 @@ void Platform_driver_init(void)
 	// Initialize.
 	err_code = app_timer_init();
 	APP_ERROR_CHECK(err_code);
-	user_gpio_init();
+	
 	
 	key_Init();
 	system_timer_init();	
 	watchdog_init(30000);
 	led_init();
-	
-    
-	sht3x_Init();
+
 	
 	read_user_flash();
-
-    vl53lx_Init();
+        lis3dh_init();
 }
 
 
