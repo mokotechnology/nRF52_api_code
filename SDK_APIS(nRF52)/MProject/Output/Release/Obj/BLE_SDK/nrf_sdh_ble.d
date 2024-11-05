@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/nrf_sdh_ble.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\softdevice\common\nrf_sdh_ble.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\softdevice\common\nrf_sdh_ble.c \
  ../nRF_SDK_14.2/components/libraries/util/sdk_common.h \
  D:/segger/include/stdint.h D:/segger/include/stdbool.h \
  D:/segger/include/string.h D:/segger/include/__crossworks.h \
@@ -23,7 +23,7 @@ Output/Release/Obj/BLE_SDK/nrf_sdh_ble.o: \
  ../nRF_SDK_14.2/components/device/nrf52_to_nrf52810.h \
  ../nRF_SDK_14.2/components/device/compiler_abstraction.h \
  ../nRF_SDK_14.2/components/libraries/util/sdk_macros.h \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\softdevice\common\nrf_sdh_ble.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\softdevice\common\nrf_sdh_ble.h \
  ../nRF_SDK_14.2/components/libraries/util/app_util.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_ranges.h \
@@ -44,7 +44,7 @@ Output/Release/Obj/BLE_SDK/nrf_sdh_ble.o: \
  D:/segger/include/stdio.h \
  ../nRF_SDK_14.2/components/libraries/util/app_error_weak.h \
  ../nRF_SDK_14.2/components/libraries/util/sdk_errors.h \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\softdevice\common\nrf_sdh.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\softdevice\common\nrf_sdh.h \
  ../nRF_SDK_14.2/components/libraries/util/app_error.h \
  ../nRF_SDK_14.2/components/libraries/strerror/nrf_strerror.h \
  ../moko_src/Middleware/Shared/Inc/bsp.h \

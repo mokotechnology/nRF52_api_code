@@ -8,7 +8,7 @@
 
 #ifdef DEBUG
 #define BLE_RTT_P
-//#define BSP_RTT_P
+#define BSP_RTT_P
 #endif
 
 

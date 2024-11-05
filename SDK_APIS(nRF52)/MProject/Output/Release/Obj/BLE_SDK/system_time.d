@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/system_time.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Application\hardware\Src\system_time.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\moko_src\Application\hardware\Src\system_time.c \
  ../moko_src/Application/hardware/Inc/system_time.h \
  ../nRF_SDK_14.2/components/libraries/timer/app_timer.h \
  ../config/sdk_config.h \

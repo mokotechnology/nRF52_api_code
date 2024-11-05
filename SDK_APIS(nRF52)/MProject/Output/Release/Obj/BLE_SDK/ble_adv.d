@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/ble_adv.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Middleware\user_ble\Src\ble_adv.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\moko_src\Middleware\user_ble\Src\ble_adv.c \
  ../moko_src/Middleware/user_ble/Inc/ble_adv.h D:/segger/include/stdint.h \
  ../nRF_SDK_14.2/components/ble/common/ble_advdata.h \
  D:/segger/include/stdbool.h D:/segger/include/string.h \

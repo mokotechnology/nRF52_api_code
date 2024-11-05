@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/nrf_fstorage_sd.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\fstorage\nrf_fstorage_sd.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\fstorage\nrf_fstorage_sd.c \
  ../nRF_SDK_14.2/components/libraries/util/sdk_common.h \
  D:/segger/include/stdint.h D:/segger/include/stdbool.h \
  D:/segger/include/string.h D:/segger/include/__crossworks.h \
@@ -23,8 +23,8 @@ Output/Release/Obj/BLE_SDK/nrf_fstorage_sd.o: \
  ../nRF_SDK_14.2/components/device/nrf52_to_nrf52810.h \
  ../nRF_SDK_14.2/components/device/compiler_abstraction.h \
  ../nRF_SDK_14.2/components/libraries/util/sdk_macros.h \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\fstorage\nrf_fstorage_sd.h \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\fstorage\nrf_fstorage.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\fstorage\nrf_fstorage_sd.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\fstorage\nrf_fstorage.h \
  ../nRF_SDK_14.2/components/libraries/util/sdk_errors.h \
  ../nRF_SDK_14.2/components/libraries/experimental_section_vars/nrf_section.h \
  ../nRF_SDK_14.2/components/libraries/util/nordic_common.h \

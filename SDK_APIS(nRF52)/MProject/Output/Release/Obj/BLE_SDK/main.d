@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/main.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\MProject\main.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\MProject\main.c \
  ../moko_src/Application/DFU/Inc/nrf_dfu.h D:/segger/include/stdint.h \
  D:/segger/include/stdbool.h D:/segger/include/string.h \
  D:/segger/include/__crossworks.h \

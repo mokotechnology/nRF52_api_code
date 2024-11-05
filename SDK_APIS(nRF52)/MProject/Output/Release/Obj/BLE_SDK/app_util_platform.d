@@ -1,6 +1,6 @@
 Output/Release/Obj/BLE_SDK/app_util_platform.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\app_util_platform.c \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\app_util_platform.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\app_util_platform.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\app_util_platform.h \
  D:/segger/include/stdint.h \
  ../nRF_SDK_14.2/components/device/compiler_abstraction.h \
  ../nRF_SDK_14.2/components/device/nrf.h \
@@ -20,12 +20,12 @@ Output/Release/Obj/BLE_SDK/app_util_platform.o: \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/nrf_error.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/nrf_error_soc.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/nrf_nvic.h \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\nrf_assert.h \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\app_error.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\nrf_assert.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\app_error.h \
  D:/segger/include/stdio.h D:/segger/include/__crossworks.h \
  D:/segger/include/stdbool.h \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\sdk_errors.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\sdk_errors.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/nrf_error.h \
  ../config/sdk_config.h \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\nordic_common.h \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\app_error_weak.h
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\nordic_common.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\util\app_error_weak.h

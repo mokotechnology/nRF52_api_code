@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/gpio_init.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Src\gpio_init.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Src\gpio_init.c \
  ../moko_src\Middleware\user_hardware\Inc/gpio_init.h \
  ../nRF_SDK_14.2/components/drivers_nrf/hal/nrf_gpio.h \
  ../nRF_SDK_14.2/components/device/nrf.h \

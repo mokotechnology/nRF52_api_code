@@ -1,7 +1,7 @@
 Output/Release/Obj/BLE_SDK/nrf_saadc.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\drivers_nrf\hal\nrf_saadc.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\drivers_nrf\hal\nrf_saadc.c \
  ../config/sdk_config.h \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\drivers_nrf\hal\nrf_saadc.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\drivers_nrf\hal\nrf_saadc.h \
  D:/segger/include/stdbool.h D:/segger/include/stddef.h \
  D:/segger/include/__crossworks.h ../nRF_SDK_14.2/components/device/nrf.h \
  ../nRF_SDK_14.2/components/device/nrf52810.h \

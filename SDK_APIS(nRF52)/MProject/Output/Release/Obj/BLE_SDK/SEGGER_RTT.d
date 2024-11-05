@@ -1,7 +1,7 @@
 Output/Release/Obj/BLE_SDK/SEGGER_RTT.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\external\segger_rtt\SEGGER_RTT.c \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\external\segger_rtt\SEGGER_RTT.h \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\external\segger_rtt\SEGGER_RTT_Conf.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\external\segger_rtt\SEGGER_RTT.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\external\segger_rtt\SEGGER_RTT.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\external\segger_rtt\SEGGER_RTT_Conf.h \
  ../nRF_SDK_14.2/components/libraries/util/nordic_common.h \
  ../nRF_SDK_14.2/components/libraries/util/app_util_platform.h \
  D:/segger/include/stdint.h \

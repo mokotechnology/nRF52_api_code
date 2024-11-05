@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/user_flash.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Application\hardware\Src\user_flash.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\moko_src\Application\hardware\Src\user_flash.c \
  ../moko_src/Application/hardware/Inc/user_flash.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_gap.h \
  D:/segger/include/stdint.h \

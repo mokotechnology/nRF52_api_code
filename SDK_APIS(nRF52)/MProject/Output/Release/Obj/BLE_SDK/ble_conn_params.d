@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/ble_conn_params.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_conn_params.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_conn_params.c \
  ../nRF_SDK_14.2/components/libraries/util/sdk_common.h \
  D:/segger/include/stdint.h D:/segger/include/stdbool.h \
  D:/segger/include/string.h D:/segger/include/__crossworks.h \
@@ -28,7 +28,7 @@ Output/Release/Obj/BLE_SDK/ble_conn_params.o: \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_hci.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_err.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/nrf_error.h \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_conn_params.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_conn_params.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_ranges.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_types.h \
@@ -39,12 +39,12 @@ Output/Release/Obj/BLE_SDK/ble_conn_params.o: \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_gatt.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_gattc.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_gatts.h \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_srv_common.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_srv_common.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_types.h \
  ../nRF_SDK_14.2/components/libraries/util/app_util.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_gap.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_gatt.h \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_conn_state.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_conn_state.h \
  ../nRF_SDK_14.2/components/libraries/util/sdk_mapped_flags.h \
  ../nRF_SDK_14.2/components/softdevice/common/nrf_sdh_ble.h \
  ../nRF_SDK_14.2/components/libraries/experimental_section_vars/nrf_section_iter.h \

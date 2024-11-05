@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/key.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Src\key.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Src\key.c \
  ../moko_src\Middleware\user_hardware\Inc/key.h \
  ../moko_src\Middleware\user_hardware\Inc/gpio_init.h \
  ../nRF_SDK_14.2/components/drivers_nrf/hal/nrf_gpio.h \

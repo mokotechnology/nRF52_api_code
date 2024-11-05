@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/battery_check.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Src\battery_check.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Src\battery_check.c \
  ../moko_src\Middleware\user_hardware\Inc/battery_check.h \
  D:/segger/include/stdint.h \
  ../nRF_SDK_14.2/components/drivers_nrf/saadc/nrf_drv_saadc.h \

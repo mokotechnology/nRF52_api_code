@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/simple_uart.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\UART\Src\simple_uart.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\UART\Src\simple_uart.c \
  D:/segger/include/stdint.h \
  ../nRF_SDK_14.2/components/libraries/uart/app_uart.h \
  D:/segger/include/stdbool.h \

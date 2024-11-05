@@ -1,6 +1,6 @@
 Output/Release/Obj/BLE_SDK/ble_advdata.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_advdata.c \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_advdata.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_advdata.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_advdata.h \
  D:/segger/include/stdint.h D:/segger/include/stdbool.h \
  D:/segger/include/string.h D:/segger/include/__crossworks.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble.h \
@@ -31,7 +31,7 @@ Output/Release/Obj/BLE_SDK/ble_advdata.o: \
  ../nRF_SDK_14.2/components/device/compiler_abstraction.h \
  ../nRF_SDK_14.2/components/libraries/util/nordic_common.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_gap.h \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_srv_common.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\ble\common\ble_srv_common.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_types.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/ble_gatt.h \
  ../nRF_SDK_14.2/components/libraries/util/sdk_common.h \

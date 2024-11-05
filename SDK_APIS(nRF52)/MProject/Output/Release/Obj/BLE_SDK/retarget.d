@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/retarget.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\uart\retarget.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\uart\retarget.c \
  ../nRF_SDK_14.2/components/libraries/util/sdk_common.h \
  D:/segger/include/stdint.h D:/segger/include/stdbool.h \
  D:/segger/include/string.h D:/segger/include/__crossworks.h \
@@ -24,7 +24,7 @@ Output/Release/Obj/BLE_SDK/retarget.o: \
  ../nRF_SDK_14.2/components/device/compiler_abstraction.h \
  ../nRF_SDK_14.2/components/libraries/util/sdk_macros.h \
  D:/segger/include/stdio.h \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\uart\app_uart.h \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\nRF_SDK_14.2\components\libraries\uart\app_uart.h \
  ../nRF_SDK_14.2/components/libraries/util/app_util_platform.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/nrf_soc.h \
  ../nRF_SDK_14.2/components/softdevice/s112/headers/nrf_svc.h \

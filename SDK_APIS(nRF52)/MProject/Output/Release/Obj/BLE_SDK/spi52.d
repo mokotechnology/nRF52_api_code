@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/spi52.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\LIS3DH\Src\spi52.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\LIS3DH\Src\spi52.c \
  ../moko_src\Middleware\user_hardware\Sensor\LIS3DH\Inc/spi52.h \
  ../nRF_SDK_14.2/components/drivers_nrf/spi_master/nrf_drv_spi.h \
  ../nRF_SDK_14.2/components/libraries/util/nordic_common.h \

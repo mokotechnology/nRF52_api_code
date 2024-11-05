@@ -1,5 +1,5 @@
 Output/Release/Obj/BLE_SDK/lis3dh_driver.o: \
- D:\MOKO-project-2024\nRF52_api_code-cjy\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\LIS3DH\Src\lis3dh_driver.c \
+ D:\MOKO-project-2024\nRF52_api_code-temp\SDK_APIS(nRF52)\moko_src\Middleware\user_hardware\Sensor\LIS3DH\Src\lis3dh_driver.c \
  ../moko_src\Middleware\user_hardware\Sensor\LIS3DH\Inc/lis3dh_driver.h \
  D:/segger/include/stdint.h D:/segger/include/string.h \
  D:/segger/include/__crossworks.h D:/segger/include/stdbool.h \
